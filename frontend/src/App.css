@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  margin: 10px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.normal {
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 1em;
+}
+
+header {
+  font-size: 2em;
+}
+
+.quiz {
+  border: 1px solid black; 
+  margin: 20px;
+  padding: 10px;
+}
+
+.osszpont {
+  padding: 10px 0 0 0;
+}
+
+table {
+  width: 100%;
+}
+
+.szo, .tableHead {
+  border: 1px solid black !important;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 10px;
+  width: 100%;
+}
+
+.input {
+  width: 100%;
+}
+
+.tableHead > div, .szo > div {
+  text-align: left;
+  max-width: 100%;
+}
+
+.szo input {
+  max-width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .szo {
+    grid-template-columns: 1fr;
+
+  }
+
+  .tableHead {
+    display: none;
+  }
+}

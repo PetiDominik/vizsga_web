@@ -1,0 +1,52 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "vizsga",
+    "collectionId": "65ccf2a1-b4f2-4d92-830d-f2a365e7b1ee",
+    "dateExported": "2024-05-21T15:51:48.729Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "08162fbd-ab35-461d-b5c6-400ff4a401ed",
+            "colId": "65ccf2a1-b4f2-4d92-830d-f2a365e7b1ee",
+            "containerId": "",
+            "name": "getAllSzo",
+            "url": "szavak",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-05-21T15:50:39.618Z",
+            "modified": "2024-05-21T15:51:00.290Z",
+            "headers": []
+        },
+        {
+            "_id": "ac7ffd67-46bd-47ce-bc68-c633a80c5cca",
+            "colId": "65ccf2a1-b4f2-4d92-830d-f2a365e7b1ee",
+            "containerId": "",
+            "name": "getSzavakByTema",
+            "url": "szavak/informatikai",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-05-21T15:51:09.762Z",
+            "modified": "2024-05-21T15:51:20.913Z",
+            "headers": []
+        },
+        {
+            "_id": "33d4035a-76a2-4968-9503-02caaf9a3f6a",
+            "colId": "65ccf2a1-b4f2-4d92-830d-f2a365e7b1ee",
+            "containerId": "",
+            "name": "getAllTema",
+            "url": "tema",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-05-21T15:51:28.354Z",
+            "modified": "2024-05-21T15:51:32.901Z",
+            "headers": []
+        }
+    ],
+    "settings": {
+        "options": {
+            "baseUrl": "http://localhost:8000/api/"
+        }
+    },
+    "ref": "qgqMdGJnf92i3iLVyxB13vsNfbgcw4OCPUqzKxTj9aKB8j_ssPIS17UC-ghXhQtQsTfdzTeJSSMzWx5pGTdwTQ"
+}
